@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+/* header */
+.logo {
+    width: 20%;
+}
+.logo img {
+    width: 100%;
+}
+
+/* baner */
+.baner {
+    background-image: url(../img/img/service.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #212529;
+    height: 100vh;
+    font-size: 2rem;
+    padding-top: 10rem;
+    text-align: center;
+}
+.baner h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+.baner-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.baner-info {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 2rem;
+}
+
+/* service */
+.service-container,
+.service-container h1 {
+    margin: 5rem 0 5rem 0;
+    text-align: center;
+}
+.service-item {
+    position: relative;
+    padding: 2rem;
+    border: 1px solid #c8c8c8;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .2s;
+}
+.service-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 1px 12px 1px #00000054;
+}
+.service-item:hover div:first-of-type {
+    opacity: 0;
+    transition: all .1s;
+}
+.service-item:hover .visible {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.visible {
+    line-height: 1rem;
+    font-size: .8rem;
+    padding: 1rem;
+    display: none;
+    height: 100%;
+}
+
+/* footer */
+.footer-container {
+    height: 18rem;
+    color: white;
+    background-color: #353c65;
+}
+
+.footer_contact {
+    padding-top: 1rem;
+    line-height: 1rem;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contact-us a {
+    text-decoration: none;
+}
+
+.contact-us div {
+    width: 30%;
+}
+
+.contact-us div:first-of-type {
+    display: grid;
+}
+
+.contact-us div:first-of-type a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-us div:first-of-type a:hover {
+    color: #a8a8a8;
+    transition: all .3s;
+}
+
+.contact-us div:last-of-type {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact-us div p {
+    font-size: 1rem;
+}
+
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:30%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media screen and (max-width: 767px) {
+    .baner-info {
+        padding: .7rem;
+    }
+    .baner {
+        padding-top: 8rem;
+        font-size: 1rem;
+    }
+    .baner h1 {
+        font-size: 2rem;
+    }
+    .footer-container {
+        height: 19rem;
+    }
+    .contact-us div p {
+        font-size: .8rem;
+    }
+
+}
