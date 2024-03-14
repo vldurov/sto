@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+/* header */
+.logo {
+    width: 20%;
+}
+.logo img {
+    width: 100%;
+}
+
+/* vacansion */
+
+.vacansion {
+    background-image: url(../img/img/vacation.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.vacansion-container {
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.vacansion-info {
+    display: inline-block;
+    background-color: #ffffff70;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.vacansion-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.vacansion-info ul {
+    text-align: start;
+}
+
+/* footer */
+.footer-container {
+    height: 18rem;
+    color: white;
+    background-color: #283552;
+}
+
+.footer_contact {
+    padding-top: 1rem;
+    line-height: 1rem;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contact-us a {
+    text-decoration: none;
+}
+
+.contact-us div {
+    width: 30%;
+}
+
+.contact-us div:first-of-type {
+    display: grid;
+}
+
+.contact-us div:first-of-type a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-us div:first-of-type a:hover {
+    color: #a8a8a8;
+    transition: all .3s;
+}
+
+.contact-us div:last-of-type {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact-us div p {
+    font-size: 1rem;
+}
+
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:30%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        width: 40%;
+    }
+    .vacansion-container {
+        padding-top: 5rem;
+    }
+    .vacansion-info {
+        padding: 1rem;
+        margin: 0 1rem 0 1rem
+    }
+    .footer-container {
+        height: 43rem;
+    }
+    .map-responsive {
+        height: 15rem;
+    }
+    .contact-us {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .contact-us div p {
+        font-size: .8rem;
+    }
+}
