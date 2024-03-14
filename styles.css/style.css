@@ -170,5 +170,14 @@ body {
     .contact-us div p {
         font-size: .8rem;
     }
+}
 
+
+@media screen and (max-width: 380px) {
+    .baner {
+        height: calc(100vh+2rem);
+    }
+    .footer-container {
+        height: 47rem;
+    }
 }

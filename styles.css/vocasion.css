@@ -39,6 +39,7 @@ body {
 .vacansion-info a {
     text-decoration: none;
     color: black;
+    font-size: 1.1rem;
 }
 
 .vacansion-info ul {
@@ -134,5 +135,14 @@ body {
     }
     .contact-us div p {
         font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .vacansion {
+        height: calc(100vh+2rem);
+    }
+    .footer-container {
+        height: 47rem;
     }
 }

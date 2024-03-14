@@ -133,3 +133,12 @@ body {
         font-size: .8rem;
     }
 }
+
+@media screen and (max-width: 380px) {
+    .contact {
+        height: calc(100vh+2rem);
+    }
+    .footer-container {
+        height: 47rem;
+    }
+}

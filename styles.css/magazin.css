@@ -26,8 +26,6 @@ body {
 
 }
 
-
-
 /* footer */
 .footer-container {
     height: 18rem;
@@ -110,5 +108,14 @@ body {
     }
     .contact-us div p {
         font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .magazin {
+        height: calc(100vh+2rem);
+    }
+    .footer-container {
+        height: 47rem;
     }
 }
