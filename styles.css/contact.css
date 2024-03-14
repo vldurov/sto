@@ -136,7 +136,7 @@ body {
 
 @media screen and (max-width: 380px) {
     .contact {
-        padding-top: 1rem;
+        padding-top: 2rem;
         height: calc(100vh+10rem);
     }
     .footer-container {
