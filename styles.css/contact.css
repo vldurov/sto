@@ -136,9 +136,9 @@ body {
 
 @media screen and (max-width: 380px) {
     .contact {
-        height: calc(100vh+2rem);
+        height: calc(100vh+10rem);
     }
     .footer-container {
-        height: 47rem;
+        height: 52rem;
     }
 }
