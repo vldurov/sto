@@ -140,9 +140,10 @@ body {
 
 @media screen and (max-width: 380px) {
     .vacansion {
+        padding-top: 1rem;
         height: calc(100vh+10rem);
     }
     .footer-container {
-        height: 52rem;
+        height: 51rem;
     }
 }
