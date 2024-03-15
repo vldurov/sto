@@ -41,6 +41,11 @@ body {
     border-radius: 1rem;
 }
 
+.modal-content a {
+    text-decoration: none;
+    color: black;
+}
+
 /* service */
 .service-container,
 .service-container h1 {
