@@ -139,9 +139,8 @@ body {
 }
 
 @media screen and (max-width: 380px) {
-    .vacansion-info {
-        padding-top: 1rem;
-        height: calc(100vh+10rem);
+    .vacansion {
+        height: calc(100vh + 5rem);
     }
     .footer-container {
         height: 51rem;
