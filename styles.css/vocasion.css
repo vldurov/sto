@@ -142,6 +142,9 @@ body {
     .vacansion {
         height: calc(100vh + 5rem);
     }
+    .vacansion-container {
+        padding-top: 5rem;
+    }
     .footer-container {
         height: 51rem;
     }
