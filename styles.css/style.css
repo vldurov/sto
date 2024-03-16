@@ -180,7 +180,7 @@ body {
 @media screen and (max-width: 380px) {
     .baner {
         padding-top: 2rem;
-        height: calc(100vh+10rem);
+        height: calc(100vh + 5rem);
     }
     .footer-container {
         height: 51rem;
